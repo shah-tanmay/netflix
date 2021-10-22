@@ -37,6 +37,7 @@ export const FooterContainer = () => {
 			</Footer.Row>
 			<Footer.Break />
 			<Footer.Text>Netflix United Kingdom</Footer.Text>
+			<Footer.Author>Made with ❤️ by Tanmay</Footer.Author>
 		</Footer>
 	);
 };

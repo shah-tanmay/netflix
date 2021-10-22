@@ -7,7 +7,6 @@ import { Browse, Home, SignIn, SignUp } from "./pages";
 
 const App = () => {
 	const { user } = useAuthListener();
-	console.log(user);
 	return (
 		<Router>
 			<Switch>

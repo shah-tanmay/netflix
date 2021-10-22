@@ -6,10 +6,23 @@ import {
 	Row,
 	Text,
 	Title,
+	Author,
 } from "./styles/footer";
 
 const Footer = ({ children, ...restProps }) => {
 	return <Container {...restProps}>{children}</Container>;
+};
+
+Footer.Author = function FooterAuthor({ children, ...restProps }) {
+	return (
+		<Author
+			{...restProps}
+			href="https://github.com/shah-tanmay"
+			target="_blank"
+		>
+			{children}
+		</Author>
+	);
 };
 
 Footer.Row = function FooterRow({ children, ...restProps }) {

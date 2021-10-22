@@ -51,3 +51,13 @@ export const Break = styled.div`
 	flex-basis: 100%;
 	height: 0;
 `;
+
+export const Author = styled.a`
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;
+`;
